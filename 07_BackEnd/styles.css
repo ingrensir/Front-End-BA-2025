@@ -1,0 +1,38 @@
+/* Unidades de medidas absolutas
+NO CAMBIAN DEPENDIENDO EL TAMAÑO DE PANTALLA O DISPOSITIVO SON FIJAS */
+
+
+
+h1 {
+    font-size : 24px; /* el texto siempre va a medir 24 pixeles no  va a ser resposive */
+}
+
+/* CM, MM, IN : SE USAN PARA DISEÑO NO PARA WEB */
+
+/* Unidades de medidas Relativas */
+/*SE ADAPTAN AL CONTEXTO, COMO L TAMAÑO DE TEXTO DE ELEMENTO PADRE O RAIZ. MUY UTIL PARA RESPONSIVE */
+/* em : relativo al tamaño fuente del contenedor
+rem : relativo al tamaño de fuente definido en el  */
+html {
+    font-size : 20px;
+}
+p{
+    font-size : 1.5rem; /* 30px */
+}
+
+
+/* unidades flexibles (vw u vh) alto y ancho viewport */
+
+
+div {
+    width: 50vw;
+    height: 30vh;
+    background-color: blue;
+}
+
+.caja1 {
+    background-color: rgba(250,5,60,.5);
+    width: 20vw;
+    height: 30vh;
+}
+/*paletadecolores.com.ar */

@@ -1,0 +1,31 @@
+/* Selector */
+
+h1 {
+    color : green
+}
+
+/* Selectores basicos */
+
+/* a: seelctor universal (*) */
+/* aplica a todos los emlementos */
+/* del HTML */
+
+
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* b: selector de etiqueta (vgr: h1, p) */
+
+
+/* c: selector de Class (.nombre) */
+
+.destacado {
+    color: rgb(121, 151, 14);
+}
+
+/* d: selector de ID (#nombre) */
+#titulo-principal {
+    color : blueviolet 
+}

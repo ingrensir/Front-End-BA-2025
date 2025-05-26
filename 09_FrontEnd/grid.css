@@ -1,0 +1,14 @@
+.item{
+    background-color: rgb(68, 82, 146);
+    color: beige;
+    font-size: 2rem;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Crea dos colomnas del mismo ancho */
+    gap: 10px;
+    gri
+}
