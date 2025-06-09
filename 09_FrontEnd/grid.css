@@ -10,5 +10,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Crea dos colomnas del mismo ancho */
     gap: 10px;
-    gri
+    grid-template-rows: auto;
 }
+
+/* 1fr 1fr 1fr 3 columnas mismo tamaño */

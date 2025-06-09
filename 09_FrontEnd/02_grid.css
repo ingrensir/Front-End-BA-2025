@@ -1,0 +1,49 @@
+.layout{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "main aside"
+    "footer footer";
+    grid-template-columns: 2fr 1fr; /* 2 columnas :princiual y barra lateral */ 
+    grid-row: auto 1fr auto; /* alturas de filas */
+    gap: 10px;
+}
+
+header { 
+    grid-area: header;
+    color:crimson
+}
+
+main{
+    grid-area: main;
+    color: brown;
+    background-color: aquamarine;
+    padding: 200px;
+}
+
+aside {
+    grid-area: aside;
+    color:blue;
+    background-color: antiquewhite;
+    padding: 200px;
+}
+footer{
+    grid-area: footer;
+    color: beige;
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+@media (max-width:600px){
+.layout{
+    display: grid;
+    grid-template-areas:
+    "header "
+    "main"
+    "aside"
+    "footer";
+    grid-template-columns: 1fr 1fr; 
+    grid-row: auto 1fr auto; /* alturas de filas */
+    gap: 10px;
+}
+}
